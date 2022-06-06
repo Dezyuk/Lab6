@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS -->
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.8/fullpage.js"></script>
+    <script defer src="js/index.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+            <li><span data-section="Los_Angeles">Лос-Анджелес</span></li>
+            <li>
+                <div class="dropdown">
+                    <div class="NY">Нью-Йорк</div>
+                    <div class="dropdown-content">
+                        <a href="#NY/NY1">Нью-Йорк</a>
+                        <a href="#NY/NY2">Нью-Йорк</a>
+                        <a href="#NY/NY3">Нью-Йорк</a>
+                </div>
+              </div>
+            </li>
+            <li><span data-section="Washington">Вашингтон</span></li>
+        </ul>
+    </div>
+
+    <div class="fullpage">
+
+        <div data-index="0" data-anchor="Los_Angeles" class="section">
+            <div class="bg" style="background-image: url(img/Depositphotos.jpg)"></div>
+            <div class="content">
+                <h2 class="title">Лос-Анджелес</h2>
+                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, molestiae. Facere quam praesentium explicabo quasi et suscipit veniam, velit voluptatibus. Voluptatem aspernatur aperiam nam. Esse accusantium expedita saepe debitis sint.</p>
+            </div>
+        </div>
+
+        <div data-index="1" class="section" data-anchor="NY" id="section2">
+            
+            <div class="slide" data-anchor="NY1">
+                <div class="bg" style="background-image: url(img/588b332c4da44.jpg)"></div>
+                <div class="content">
+                    <h2 class="title">Нью-Йорк</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, unde repellat doloribus voluptatum in cupiditate cum natus adipisci quam officia aut suscipit, quia magni neque inventore ipsum provident eaque nihil.</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="NY2">
+                <div class="bg" id="bg2" style="background-image: url(img/63eb289c7136d650d9b6108dbb5687b879c357e7.webp)"></div>
+                <div class="content">
+                    <h2 class="title">Нью-Йорк</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quasi laudantium fugit tempora illum labore harum culpa error cupiditate voluptates deleniti corrupti enim necessitatibus temporibus, ipsum inventore atque laborum recusandae?</p>
+                </div>
+            </div>
+
+            <div class="slide" data-anchor="NY3">
+                <div class="bg" id="bg3"style="background-image: url(img/New-York.jpg) "></div>
+                <div class="content">
+                    <h2 class="title">Нью-Йорк</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, sunt eaque voluptate tenetur ipsa accusantium voluptatum cupiditate numquam, sequi, ad adipisci. Repudiandae nostrum similique unde laborum? Ex molestias quo reprehenderit.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div data-index="2" data-anchor="Washington" class="section">
+            <div class="bg" style="background-image: url(img/destinations-washington-banner-mobile-1024x553.jpg)"></div>
+            <div class="content">
+                <h2 class="title">Вашингтон</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora temporibus suscipit nisi ex incidunt vel perspiciatis excepturi voluptatibus tenetur sequi magnam, iure omnis nam perferendis nobis est aliquid optio ad.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
